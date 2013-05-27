@@ -1,0 +1,93 @@
+body{padding-top: 5px;}
+
+a{transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;} 
+
+header.site{}
+
+#tepe{border-bottom: 1px dotted #B8B8B8;}
+#tepe .quote {float: right}
+#tepe .quote img{max-height: 150px;}
+#tepe .quote p {
+	color: #777;
+    font-family: Georgia;
+    font-size: 12px;
+    font-style: italic;    
+    background: url("../img/paragrafarka.jpg") no-repeat scroll left top transparent;
+    float: left;
+    line-height: 1.3em;
+    margin-top: 20px;
+    padding: 8px 0 0 8px;
+    width: 286px;
+}
+#tepe .quote p .who {
+    color: #000;
+    display: block;
+    text-align: right;
+}
+
+#menu .container{border-bottom: 2px solid #F6AE03; margin-bottom: 20px;}
+#menu ul{}
+#menu ul > li {padding:0;}
+#menu ul > li > a{color:#000; font-size: 15px; text-transform: uppercase; display: block; padding:10px 20px 10px 0px;}
+#menu ul > li > ul {display: none}
+#menu ul > li li {}
+#menu ul > li li > {}
+
+#manset{background: url("../img/mainbg.png") no-repeat scroll center center #A60022; margin-top: 40px; margin-bottom: 15px;}
+#manset .container{}
+#manset .ucek{margin-top: -20px;}
+#manset .span4 .img{margin-bottom: 25px;}
+#manset .span4 .img.last{margin-bottom: 0px;}
+
+#manset .ayrac {
+    border-bottom: 2px solid #F6AE03;
+    margin-top: 20px;
+
+}
+
+
+.haberlist.gorsel .row-fluid{margin-bottom: 15px;}
+
+#sidebar .border{
+	border:1px solid #ccc;
+	-webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+	padding-bottom: 10px;
+}
+
+#sidebar > div{margin-bottom: 15px;}
+padding: 10px 17px 10px 7px;
+}
+
+@media (min-width: 1200px) {
+	#manset .span4 .img{margin-bottom: 30px;}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	#tepe .quote {float: right}
+	#tepe .quote img{display: none}
+	#menu ul > li > a {font-size: 13px;}
+	#manset .span4 .img{margin-bottom: 20px;}
+}
+@media (max-width: 767px) {
+	#tepe .quote {display: none}
+	#menu ul > li{float: none; text-align: center}
+	#menu ul > li > a {font-size: 15px;}
+	#menu ul > li > a.active{background-color:#eee;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
