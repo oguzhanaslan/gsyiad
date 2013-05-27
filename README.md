@@ -1,4 +1,4 @@
 gsyiad
 ======
 
-gsyiad
+GSYIAD Web Sayfası
